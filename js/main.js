@@ -63,11 +63,11 @@
 
             let loc = window.scrollY;
 
-            if (loc > triggerHeight) {
+            /* if (loc > triggerHeight) {
                 hdr.classList.add('sticky');
             } else {
                 hdr.classList.remove('sticky');
-            }
+            } */
 
             if (loc > triggerHeight + 20) {
                 hdr.classList.add('offset');
